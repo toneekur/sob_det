@@ -3,16 +3,8 @@ import time
 
 import numpy as np
 import torch
-import torchvision.models
 import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import DataLoader
-from datetime import datetime
-from tensorboardX import SummaryWriter
 from sklearn.metrics import accuracy_score, balanced_accuracy_score
-import tqdm
-from data_loader import ImgLoader
-import timm
 import albumentations as al
 from albumentations.pytorch import ToTensorV2
 import glob
